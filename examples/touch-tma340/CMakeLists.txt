@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.16.0)
-set(EXTRA_COMPONENT_DIRS "PROJECT_SOURCE_DIR/../../")
+set(EXTRA_COMPONENT_DIRS "${PROJECT_SOURCE_DIR}/../../")
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(draw_example)
