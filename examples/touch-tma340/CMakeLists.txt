@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.16.0)
-set(EXTRA_COMPONENT_DIRS /app/tobozo/idf-builder/application)
+set(EXTRA_COMPONENT_DIRS /app/tobozo/idf-builder)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(draw_example)
